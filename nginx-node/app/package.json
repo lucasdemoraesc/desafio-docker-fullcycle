@@ -1,0 +1,16 @@
+{
+    "name": "fullcycle-node",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./app.js",
+        "dev": "npm install; nodemon --legacy-watch"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^8.4.1",
+        "express": "^4.19.2",
+        "mysql": "^2.18.1"
+    }
+}

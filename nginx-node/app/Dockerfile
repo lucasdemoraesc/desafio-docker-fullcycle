@@ -1,0 +1,5 @@
+FROM node:20
+
+WORKDIR /usr/src/app
+
+ENTRYPOINT [ "npm", "run", "dev" ]
